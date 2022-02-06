@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cp="http://schemas.charlespetzold.com/2007/xaml">
+   <!--Xaxis-->
+    <cp:Cylinder x:Key="XaxisTail" Point1="0 0 0" Point2="1 0 0" Radius1="0.05" Radius2="0.05" Slices="20" Stacks="20">
+        <cp:Cylinder.Material>
+            <DiffuseMaterial Brush="Red"/>
+        </cp:Cylinder.Material>
+    </cp:Cylinder>
+
+    <cp:Cylinder x:Key="XaxisHead" Point1="1 0 0" Point2="1.5 0 0" Radius1="0.1" Radius2="0" Slices="20" Stacks="20">
+        <cp:Cylinder.Material>
+            <DiffuseMaterial Brush="Red"/>
+        </cp:Cylinder.Material>
+    </cp:Cylinder>
+
+    <cp:WireText x:Key="XaxisText" Color="Red" Text="X" Origin="1.8 0 0" BaselineDirection="1 0 0" FontSize="0.3"/>
+
+    <!--Zaxis-->
+    <cp:Cylinder x:Key="ZaxisTail" Point1="0 0 0" Point2="0 0 1" Radius1="0.05" Radius2="0.05" Slices="20" Stacks="20">
+        <cp:Cylinder.Material>
+            <DiffuseMaterial Brush="Green"/>
+        </cp:Cylinder.Material>
+    </cp:Cylinder>
+
+    <cp:Cylinder x:Key="ZaxisHead" Point1="0 0 1" Point2="0 0 1.5" Radius1="0.1" Radius2="0" Slices="20" Stacks="20">
+        <cp:Cylinder.Material>
+            <DiffuseMaterial Brush="Green"/>
+        </cp:Cylinder.Material>
+    </cp:Cylinder>
+
+    <cp:WireText x:Key="ZaxisText" Color="Green" Text="Z" Origin="0 0 1.8" BaselineDirection="1 0 0" FontSize="0.3"/>
+
+</ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- BasicPointCube -->
+    <MeshGeometry3D x:Key="FrontSide" Positions="-0.5 -0.5  0.5,-0.5  0.5  0.5,-0.5  0.5 -0.5,-0.5 -0.5 -0.5" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="BackSide" Positions=" 0.5 -0.5  0.5, 0.5  0.5  0.5, 0.5  0.5 -0.5, 0.5 -0.5 -0.5" TriangleIndices="2 1 0,0 3 2"/>
+
+    <MeshGeometry3D x:Key="LeftSide" Positions="-0.5 -0.5  -0.5,-0.5  0.5 -0.5, 0.5  0.5 -0.5, 0.5 -0.5 -0.5" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="RightSide" Positions="-0.5 -0.5   0.5,-0.5  0.5  0.5, 0.5  0.5  0.5, 0.5 -0.5  0.5" TriangleIndices="2 1 0,0 3 2"/>
+
+    <MeshGeometry3D x:Key="UpSide" Positions="-0.5  0.5 0.5, 0.5  0.5  0.5, 0.5  0.5 -0.5,-0.5  0.5 -0.5" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="DownSide" Positions="-0.5 -0.5  0.5, 0.5 -0.5  0.5, 0.5 -0.5 -0.5,-0.5 -0.5 -0.5" TriangleIndices="2 1 0,0 3 2"/>
+
+
+    <MeshGeometry3D x:Key="FrontCenterSidePoint" Positions="-0.5 -0.4  0.4,-0.5  0.4  0.4,-0.5  0.4 -0.4,-0.5 -0.4 -0.4" TriangleIndices="0 1 2,2 3 0"/>
+
+    <MeshGeometry3D x:Key="FrontSideRightUpCornerBorderPoint" Positions="-0.5 0.5 0.4,-0.5 -0.4 0.4,-0.5 -0.4 0.5,-0.5 0.5 0.5"  TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideUpLeftCornerBorderPoint" Positions="-0.5 0.5 -0.5,-0.5 0.4 -0.5,-0.5 0.4 0.4,-0.5 0.5 0.4"  TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideLeftDownCornerBorderPoint" Positions="-0.5 0.4 -0.5,-0.5 -0.5 -0.5,-0.5 -0.5 -0.4,-0.5 0.4 -0.4"  TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideDownrightCornerBorderPoint" Positions="-0.5 -0.4 -0.4,-0.5 -0.5 -0.4,-0.5 -0.5 0.5,-0.5 -0.4 0.5"  TriangleIndices="0 1 2,2 3 0"/>
+
+</ResourceDictionary>

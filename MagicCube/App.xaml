@@ -1,0 +1,45 @@
+﻿<Application x:Class="MagicCube.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/BasicBorderSidePoint.xaml"/>
+                <ResourceDictionary Source="Theme/BasicMaterial.xaml"/>
+                <ResourceDictionary Source="Theme/BorderSide/BorderSide.xaml"/>
+
+                <ResourceDictionary Source="Theme/BorderCube/FrontUpPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/FrontCenterBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/FrontDownPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/FrontRightUpCornerBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/FrontRightPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/FrontRightDownCornerBorderCube.xaml"/>
+
+                <ResourceDictionary Source="Theme/BorderCube/RightUpPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/RightCenterBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/RightDownPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/RightBackUpCornerBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/RightBackPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/RightBackDownCornerBorderCube.xaml"/>
+
+                <ResourceDictionary Source="Theme/BorderCube/BackUpPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/BackCenterBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/BackDownPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/BackLeftUpCornerBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/BackLeftPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/BackLeftDownCornerBorderCube.xaml"/>
+
+                <ResourceDictionary Source="Theme/BorderCube/LeftUpPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/LeftCenterBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/LeftDownPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/LeftFrontUpCornerBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/LeftFrontPrismBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/LeftFrontDownCornerBorderCube.xaml"/>
+                
+                <ResourceDictionary Source="Theme/BorderCube/UpCenterBorderCube.xaml"/>
+                <ResourceDictionary Source="Theme/BorderCube/DownCenterBorderCube.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+    <Model3DGroup x:Key="FrontCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource FrontCenterSidePoint}" Material="{StaticResource FrontGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource FrontSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource FrontSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource FrontSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource FrontSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+
+    <Model3DGroup x:Key="BackCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource BackCenterSidePoint}" Material="{StaticResource BackGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource BackSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource BackSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource BackSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource BackSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+
+    <Model3DGroup x:Key="LeftCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource LeftCenterSidePoint}" Material="{StaticResource LeftGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource LeftSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource LeftSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource LeftSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource LeftSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+
+    <Model3DGroup x:Key="RightCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource RightCenterSidePoint}" Material="{StaticResource RightGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource RightSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource RightSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource RightSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource RightSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+
+    <Model3DGroup x:Key="UpCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource UpCenterSidePoint}" Material="{StaticResource RightGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource UpSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource UpSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource UpSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource UpSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+
+    <Model3DGroup x:Key="DownCenterBorderSide">
+        <GeometryModel3D Geometry="{StaticResource DownCenterSidePoint}" Material="{StaticResource DownGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>  
+        <GeometryModel3D Geometry="{StaticResource DownSideRightUpCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>   
+        <GeometryModel3D Geometry="{StaticResource DownSideUpLeftCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>      
+        <GeometryModel3D Geometry="{StaticResource DownSideLeftDownCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+        <GeometryModel3D Geometry="{StaticResource DownSideDownRightCornerBorderPoint}" Material="{StaticResource BorderGroundMaterial}" BackMaterial="{StaticResource TransparentGroundMaterial}"/>
+    </Model3DGroup>
+</ResourceDictionary>

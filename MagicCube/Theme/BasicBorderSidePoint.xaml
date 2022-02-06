@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cube="clr-namespace:MagicCube">
+    <cube:CubeConfiguration x:Key="SidePositions" SquareWidth="0.5" BorderWidth="0.05"/>
+
+    <!--FrontTransparentSide-->
+    <MeshGeometry3D x:Key="FrontSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <!--BackTransparentSide-->
+    <MeshGeometry3D x:Key="BackSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <!--LeftTransparentSide-->
+    <MeshGeometry3D x:Key="LeftSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <!--RightTransparentSide-->
+    <MeshGeometry3D x:Key="RightSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <!--UpTransparentSide-->
+    <MeshGeometry3D x:Key="UpSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <!--DownTransparentSide-->
+    <MeshGeometry3D x:Key="DownSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+
+    <!--FrontBorderSide-->
+    <MeshGeometry3D x:Key="FrontCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontCenterSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontSideRightUpCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontSideUpLeftCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontSideLeftDownCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="FrontSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=FrontSideDownRightCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+
+    <!--BacktBorderSide-->
+    <MeshGeometry3D x:Key="BackCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackCenterSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="BackSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackSideRightUpCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="BackSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackSideUpLeftCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="BackSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackSideLeftDownCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="BackSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=BackSideDownRightCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+
+    <!--LeftBorderSide-->
+    <MeshGeometry3D x:Key="LeftCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftCenterSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="LeftSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftSideRightUpCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="LeftSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftSideUpLeftCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="LeftSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftSideLeftDownCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="LeftSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=LeftSideDownRightCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+
+    <!--RightBorderSide-->
+    <MeshGeometry3D x:Key="RightCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightCenterSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="RightSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightSideRightUpCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="RightSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightSideUpLeftCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="RightSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightSideLeftDownCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="RightSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=RightSideDownRightCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+
+    <!--UpBorderSide-->
+    <MeshGeometry3D x:Key="UpCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpCenterSidePoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="UpSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpSideRightUpCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="UpSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpSideUpLeftCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="UpSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpSideLeftDownCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+    <MeshGeometry3D x:Key="UpSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=UpSideDownRightCornerBorderPoint}" TriangleIndices="0 1 2,2 3 0"/>
+
+    <!--DownBorderSide-->
+    <MeshGeometry3D x:Key="DownCenterSidePoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownCenterSidePoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="DownSideRightUpCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownSideRightUpCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="DownSideUpLeftCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownSideUpLeftCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="DownSideLeftDownCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownSideLeftDownCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+    <MeshGeometry3D x:Key="DownSideDownRightCornerBorderPoint" Positions="{Binding Source={StaticResource SidePositions}, Path=DownSideDownRightCornerBorderPoint}" TriangleIndices="2 1 0,0 3 2"/>
+
+</ResourceDictionary>
